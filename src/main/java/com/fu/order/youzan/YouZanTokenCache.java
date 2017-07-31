@@ -72,7 +72,7 @@ public class YouZanTokenCache {
         HttpMethod method = HttpMethod.POST;
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_FORM_URLENCODED);
-        String body = "client_id=814bf40919ed7ae8bd&client_secret=f884f4c9ac9dee6cba8dc86c2c25cef4&grant_type=silent&kdt_id=19091763";
+        String body = "client_id=xxx&client_secret=xxx&grant_type=silent&kdt_id=xxx";
 
         HttpEntity requestEntity = new HttpEntity(body, headers);
 
